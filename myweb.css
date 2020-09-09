@@ -5,6 +5,12 @@
 .cd{
     padding-left: 100px;
 }
+.gra{
+    width: 410px;
+    height: 435px;
+    border-radius: 50%;
+    background:-webkit-radial-gradient(circle, green,  blue);
+}
 body{
     background-color:blue;
 }
