@@ -1,3 +1,12 @@
+*{
+    margin: 0%;
+    padding:0%;
+    display: flex;
+    flex:flex-warp;
+}
+body{
+    background-color: blue;
+}
 .img{
     width: 400px;
     height: 425px;
@@ -6,7 +15,7 @@
 .cd{
     padding-left: 100px;
 }
-.gra{
+/*.gra{
     width: 410px;
     height: 435px;
     border-radius: 50%;
@@ -14,7 +23,7 @@
 }
 body{
     background-image:linear-gradient(145deg, #001affe0 30%, #0b0353c7 25%);
-}
+}*/
 
 /*.button{
     width: 75px;
@@ -31,3 +40,27 @@ body{
     font-size: 10px;
     margin-left: 800px;
 }
+@media screen and (min-width:200px) and (max-width:1000px) {
+    .btn2{
+        margin-left: 20px;
+    }
+}
+::-webkit-scrollbar {
+    width: 5px;
+    height:2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb { 
+    position: fixed;
+    width: 5px;
+    height: 1px;
+    background: linear-gradient(to top, #008aff,#00ffe7);
+    border-radius:50px;
+    animation: animate 5s linear infinite;
+  }
